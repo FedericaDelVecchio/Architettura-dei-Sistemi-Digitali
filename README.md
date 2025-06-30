@@ -10,7 +10,7 @@ This repository contains a series of laboratory exercises that progressively bui
 
 - **Federica Del Vecchio**
 - **Claudia Antonella Esposito** - [@ClaudiaEspo](https://github.com/ClaudiaEspo)
-- **Tommaso Di Lillo** 
+- **Tommaso Di Lillo** - [@tommasodilillo](https://github.com/tommasodilillo98)
 - **Carolina Di Donato** - [@carolinadidonato](https://github.com/carolinadidonato)
 
 ## 🗂️ Project Structure
