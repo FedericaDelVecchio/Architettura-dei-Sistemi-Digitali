@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/TESINA/esercizio_11/esercizio_11.srcs/sources_1/new/gestione_priorita.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'gestione_priorita'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/TESINA/esercizio_11/esercizio_11.srcs/sources_1/new/sistema_totale.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sistema_totale'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/TESINA/esercizio_11/esercizio_11.srcs/sim_1/new/tb_sistema_totale.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_sistema_totale'

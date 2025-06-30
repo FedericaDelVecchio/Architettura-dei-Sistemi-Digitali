@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/VHDL/TESINA/esercizio_6/esercizio_6.sim/sim_1/synth/func/xsim/CU_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU
+INFO: [VRFC 10-311] analyzing module M
+INFO: [VRFC 10-311] analyzing module MEM
+INFO: [VRFC 10-311] analyzing module ROM
+INFO: [VRFC 10-311] analyzing module cont_mod_n
+INFO: [VRFC 10-311] analyzing module glbl

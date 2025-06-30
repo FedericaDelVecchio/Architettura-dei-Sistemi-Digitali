@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Mon Feb  5 14:31:33 2024
+# Process ID: 25148
+# Current directory: C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/Architettura dei Sistemi Digitali/ESERCIZIO
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24876 C:\Users\feffe\OneDrive - Università di Napoli Federico II\Universita'\Architettura dei Sistemi Digitali\ESERCIZIO\ESERCIZIO.xpr
+# Log file: C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/Architettura dei Sistemi Digitali/ESERCIZIO/vivado.log
+# Journal file: C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/Architettura dei Sistemi Digitali/ESERCIZIO\vivado.jou
+# Running On: Laptop-Fede, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 16527 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/Architettura dei Sistemi Digitali/ESERCIZIO/ESERCIZIO.xpr}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/Architettura dei Sistemi Digitali/ESERCIZIO/final_testbench_behav.wcfg}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/Architettura dei Sistemi Digitali/ESERCIZIO/final_testbench_behav.wcfg}}
+launch_simulation
+source total_system_tb.tcl
+current_wave_config {Untitled 1}
+add_wave {{/total_system_tb/n_B/m_e_m/dataOut}} 
+save_wave_config {C:/VHDL/TESINA/ESERCIZIO/final_testbench_behav1.wcfg}
+add_files -fileset sim_1 -norecurse C:/VHDL/TESINA/ESERCIZIO/final_testbench_behav1.wcfg
+set_property xsim.view {{C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/Architettura dei Sistemi Digitali/ESERCIZIO/nodo_A_tb_behav.wcfg} {C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/Architettura dei Sistemi Digitali/ESERCIZIO/testbench_serial_adder_behav.wcfg} {C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/Architettura dei Sistemi Digitali/ESERCIZIO/SerialAdder_tb_behav.wcfg} {C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/Architettura dei Sistemi Digitali/ESERCIZIO/nodo_B_tb_behav.wcfg} {C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/Architettura dei Sistemi Digitali/ESERCIZIO/nodo_B_tb_behav1.wcfg} {C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/Architettura dei Sistemi Digitali/ESERCIZIO/final_testbench_behav.wcfg} {C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/Architettura dei Sistemi Digitali/ESERCIZIO/FourBitSerialAdderSubtractorSimulation_behav.wcfg} {C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/Architettura dei Sistemi Digitali/ESERCIZIO/final_testbench_behav.wcfg} {C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/Architettura dei Sistemi Digitali/ESERCIZIO/final_testbench_behav1.wcfg} {C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/Architettura dei Sistemi Digitali/ESERCIZIO/final_testbench_behav2.wcfg} {C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/Architettura dei Sistemi Digitali/ESERCIZIO/final_testbench_behav3.wcfg} {C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/Architettura dei Sistemi Digitali/ESERCIZIO/final_testbench_behav.wcfg} {C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/Architettura dei Sistemi Digitali/ESERCIZIO/final_testbench_behav1.wcfg} {C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/Architettura dei Sistemi Digitali/ESERCIZIO/final_testbench_behav2.wcfg} {C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/Architettura dei Sistemi Digitali/ESERCIZIO/nodo_B_tb_behav.wcfg} {C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/Architettura dei Sistemi Digitali/ESERCIZIO/final_testbench_behav.wcfg} C:/VHDL/TESINA/ESERCIZIO/final_testbench_behav1.wcfg} [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config C:/VHDL/TESINA/ESERCIZIO/final_testbench_behav1.wcfg
+source total_system_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/VHDL/TESINA/ESERCIZIO/final_testbench_behav1.wcfg
+source total_system_tb.tcl
+save_wave_config {C:/VHDL/TESINA/ESERCIZIO/final_testbench_behav1.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/VHDL/TESINA/ESERCIZIO/final_testbench_behav1.wcfg
+source total_system_tb.tcl
+close_sim

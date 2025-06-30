@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Thu Jan 25 10:23:17 2024
+# Process ID: 9236
+# Current directory: C:/VHDL/TESINA/esercizio_7/esercizio_7.runs/synth_1
+# Command line: vivado.exe -log molt_booth_on_board.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source molt_booth_on_board.tcl
+# Log file: C:/VHDL/TESINA/esercizio_7/esercizio_7.runs/synth_1/molt_booth_on_board.vds
+# Journal file: C:/VHDL/TESINA/esercizio_7/esercizio_7.runs/synth_1\vivado.jou
+# Running On: Laptop-Fede, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 16527 MB
+#-----------------------------------------------------------
+source molt_booth_on_board.tcl -notrace

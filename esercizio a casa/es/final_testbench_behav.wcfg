@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="total_system_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="total_system_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="166.001 ns"></ZoomEndTime>
+      <Cursor1Time time="483.852 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="109"></NameColumnWidth>
+      <ValueColumnWidth column_width="86"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/total_system_tb/clk1" type="logic">
+      <obj_property name="ElementShortName">clk1</obj_property>
+      <obj_property name="ObjectShortName">clk1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/total_system_tb/clk2" type="logic">
+      <obj_property name="ElementShortName">clk2</obj_property>
+      <obj_property name="ObjectShortName">clk2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/total_system_tb/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/total_system_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/total_system_tb/ack" type="logic">
+      <obj_property name="ElementShortName">ack</obj_property>
+      <obj_property name="ObjectShortName">ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/total_system_tb/req" type="logic">
+      <obj_property name="ElementShortName">req</obj_property>
+      <obj_property name="ObjectShortName">req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/total_system_tb/data1" type="array">
+      <obj_property name="ElementShortName">data1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">data1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/total_system_tb/data2" type="array">
+      <obj_property name="ElementShortName">data2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">data2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/total_system_tb/n_B/write_mem" type="logic">
+      <obj_property name="ElementShortName">write_mem</obj_property>
+      <obj_property name="ObjectShortName">write_mem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/total_system_tb/n_B/address" type="array">
+      <obj_property name="ElementShortName">address[2:0]</obj_property>
+      <obj_property name="ObjectShortName">address[2:0]</obj_property>
+   </wvobject>
+</wave_config>

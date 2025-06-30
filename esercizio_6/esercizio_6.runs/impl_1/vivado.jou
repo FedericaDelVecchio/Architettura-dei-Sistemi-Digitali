@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Tue Jan 30 14:20:50 2024
+# Process ID: 3000
+# Current directory: C:/VHDL/TESINA/esercizio_6/esercizio_6.runs/impl_1
+# Command line: vivado.exe -log CU_on_board.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source CU_on_board.tcl -notrace
+# Log file: C:/VHDL/TESINA/esercizio_6/esercizio_6.runs/impl_1/CU_on_board.vdi
+# Journal file: C:/VHDL/TESINA/esercizio_6/esercizio_6.runs/impl_1\vivado.jou
+# Running On: Laptop-Fede, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 16527 MB
+#-----------------------------------------------------------
+source CU_on_board.tcl -notrace

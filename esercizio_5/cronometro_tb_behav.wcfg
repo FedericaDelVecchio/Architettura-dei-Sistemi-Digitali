@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cronometro_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="cronometro_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,000.000 ns"></ZoomEndTime>
+      <Cursor1Time time="124.424 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/cronometro_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cronometro_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cronometro_tb/set" type="logic">
+      <obj_property name="ElementShortName">set</obj_property>
+      <obj_property name="ObjectShortName">set</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cronometro_tb/init_sec" type="other">
+      <obj_property name="ElementShortName">init_sec</obj_property>
+      <obj_property name="ObjectShortName">init_sec</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cronometro_tb/init_min" type="other">
+      <obj_property name="ElementShortName">init_min</obj_property>
+      <obj_property name="ObjectShortName">init_min</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cronometro_tb/init_ore" type="other">
+      <obj_property name="ElementShortName">init_ore</obj_property>
+      <obj_property name="ObjectShortName">init_ore</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cronometro_tb/sec" type="other">
+      <obj_property name="ElementShortName">sec</obj_property>
+      <obj_property name="ObjectShortName">sec</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cronometro_tb/min" type="other">
+      <obj_property name="ElementShortName">min</obj_property>
+      <obj_property name="ObjectShortName">min</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cronometro_tb/ore" type="other">
+      <obj_property name="ElementShortName">ore</obj_property>
+      <obj_property name="ObjectShortName">ore</obj_property>
+   </wvobject>
+</wave_config>

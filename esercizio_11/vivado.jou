@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Thu Feb  1 12:09:00 2024
+# Process ID: 7000
+# Current directory: C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/TESINA/esercizio_11
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13680 C:\Users\feffe\OneDrive - Università di Napoli Federico II\Universita'\TESINA\esercizio_11\esercizio_11.xpr
+# Log file: C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/TESINA/esercizio_11/vivado.log
+# Journal file: C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/TESINA/esercizio_11\vivado.jou
+# Running On: Laptop-Fede, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 16527 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/TESINA/esercizio_11/esercizio_11.xpr}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top switch_elem_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/TESINA/esercizio_11/tb_sistema_totale_behav.wcfg}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/TESINA/esercizio_11/tb_sistema_totale_behav.wcfg}}
+launch_simulation
+source switch_elem_tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top rete_di_interconnesione_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+close_sim
+launch_simulation
+source rete_di_interconnesione_tb.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_sistema_totale [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source tb_sistema_totale.tcl
+update_compile_order -fileset sim_1
+close_sim

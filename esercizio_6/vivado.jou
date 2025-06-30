@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Thu Feb  1 11:53:18 2024
+# Process ID: 19540
+# Current directory: C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/TESINA/esercizio_6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3716 C:\Users\feffe\OneDrive - Università di Napoli Federico II\Universita'\TESINA\esercizio_6\esercizio_6.xpr
+# Log file: C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/TESINA/esercizio_6/vivado.log
+# Journal file: C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/TESINA/esercizio_6\vivado.jou
+# Running On: Laptop-Fede, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 16527 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/TESINA/esercizio_6/esercizio_6.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/Users/feffe/OneDrive - Università di Napoli Federico II/Universita'/TESINA/esercizio_6/CU_tb_behav.wcfg}
+source CU_tb.tcl
+close_sim

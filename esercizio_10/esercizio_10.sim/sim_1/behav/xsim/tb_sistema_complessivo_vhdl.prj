@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../esercizio_10.srcs/sources_1/new/MEM.vhd" \
+"../../../../esercizio_10.srcs/sources_1/new/ROM.vhd" \
+"../../../../esercizio_10.srcs/sources_1/new/RS232RefComp.vhd" \
+"../../../../esercizio_10.srcs/sources_1/new/cont_mod_8.vhd" \
+"../../../../esercizio_10.srcs/sources_1/new/control_unit_A.vhd" \
+"../../../../esercizio_10.srcs/sources_1/new/control_unit_B.vhd" \
+"../../../../esercizio_10.srcs/sources_1/new/sistema_A.vhd" \
+"../../../../esercizio_10.srcs/sources_1/new/sistema_B.vhd" \
+"../../../../esercizio_10.srcs/sources_1/new/sistema_complessivo.vhd" \
+"../../../../esercizio_10.srcs/sim_1/new/tb_sistema_complessivo.vhd" \
+
+# Do not sort compile order
+nosort

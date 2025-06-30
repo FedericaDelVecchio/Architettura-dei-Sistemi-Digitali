@@ -1,0 +1,10 @@
+.main 
+  .var 
+  a
+  .endvar 
+  BIPUSH 300
+  BIPUSH 1
+  POP
+  ISTORE a
+  HALT 
+  .endmethod

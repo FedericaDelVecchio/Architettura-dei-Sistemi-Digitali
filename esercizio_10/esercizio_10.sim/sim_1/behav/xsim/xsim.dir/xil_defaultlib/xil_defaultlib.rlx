@@ -1,0 +1,17 @@
+0.7
+2020.2
+Jun 16 2023
+19:55:58
+C:/VHDL/TESINA/esercizio_10/esercizio_10.srcs/sim_1/new/MEM_tb.vhd,1706650869,vhdl,,,,mem_tb,,,,,,,,
+C:/VHDL/TESINA/esercizio_10/esercizio_10.srcs/sim_1/new/ROM_tb.vhd,1706649965,vhdl,,,,rom_tb,,,,,,,,
+C:/VHDL/TESINA/esercizio_10/esercizio_10.srcs/sim_1/new/cont_mod_8_tb.vhd,1706650361,vhdl,,,,cont_mod_8_tb,,,,,,,,
+C:/VHDL/TESINA/esercizio_10/esercizio_10.srcs/sim_1/new/tb_sistema_complessivo.vhd,1706361601,vhdl,,,,tb_sistema_complessivo,,,,,,,,
+C:/VHDL/TESINA/esercizio_10/esercizio_10.srcs/sources_1/new/MEM.vhd,1706650783,vhdl,C:/VHDL/TESINA/esercizio_10/esercizio_10.srcs/sim_1/new/MEM_tb.vhd,,,mem,,,,,,,,
+C:/VHDL/TESINA/esercizio_10/esercizio_10.srcs/sources_1/new/ROM.vhd,1706357171,vhdl,C:/VHDL/TESINA/esercizio_10/esercizio_10.srcs/sim_1/new/ROM_tb.vhd,,,rom,,,,,,,,
+C:/VHDL/TESINA/esercizio_10/esercizio_10.srcs/sources_1/new/RS232RefComp.vhd,1706354388,vhdl,,,,rs232refcomp,,,,,,,,
+C:/VHDL/TESINA/esercizio_10/esercizio_10.srcs/sources_1/new/cont_mod_8.vhd,1706356925,vhdl,C:/VHDL/TESINA/esercizio_10/esercizio_10.srcs/sim_1/new/cont_mod_8_tb.vhd,,,cont_mod_8,,,,,,,,
+C:/VHDL/TESINA/esercizio_10/esercizio_10.srcs/sources_1/new/control_unit_A.vhd,1706360455,vhdl,,,,control_unit_a,,,,,,,,
+C:/VHDL/TESINA/esercizio_10/esercizio_10.srcs/sources_1/new/control_unit_B.vhd,1706355109,vhdl,,,,control_unit_b,,,,,,,,
+C:/VHDL/TESINA/esercizio_10/esercizio_10.srcs/sources_1/new/sistema_A.vhd,1706360993,vhdl,,,,sistema_a,,,,,,,,
+C:/VHDL/TESINA/esercizio_10/esercizio_10.srcs/sources_1/new/sistema_B.vhd,1706361438,vhdl,,,,sistema_b,,,,,,,,
+C:/VHDL/TESINA/esercizio_10/esercizio_10.srcs/sources_1/new/sistema_complessivo.vhd,1706348888,vhdl,C:/VHDL/TESINA/esercizio_10/esercizio_10.srcs/sim_1/new/tb_sistema_complessivo.vhd,,,sistema_complessivo,,,,,,,,

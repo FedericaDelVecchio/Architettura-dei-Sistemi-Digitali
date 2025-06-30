@@ -1,0 +1,16 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../esercizio_8.srcs/sources_1/new/ROM.vhd" \
+"../../../../esercizio_8.srcs/sources_1/new/cont_mod_16.vhd" \
+"../../../../esercizio_8.srcs/sources_1/new/memoria.vhd" \
+"../../../../esercizio_8.srcs/sources_1/new/operando_x.vhd" \
+"../../../../esercizio_8.srcs/sources_1/new/sistema.vhd" \
+"../../../../esercizio_8.srcs/sources_1/new/sistema_A.vhd" \
+"../../../../esercizio_8.srcs/sources_1/new/sistema_B.vhd" \
+"../../../../esercizio_8.srcs/sources_1/new/sommatore.vhd" \
+"../../../../esercizio_8.srcs/sources_1/new/unita_controllo_A.vhd" \
+"../../../../esercizio_8.srcs/sources_1/new/unita_controllo_B.vhd" \
+"../../../../esercizio_8.srcs/sim_1/new/testbench_sis.vhd" \
+
+# Do not sort compile order
+nosort

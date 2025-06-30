@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../esercizio_5.srcs/sources_1/new/contatore.vhd" \
+"../../../../esercizio_5.srcs/sources_1/new/cronometro.vhd" \
+"../../../../esercizio_5.srcs/sim_1/new/cronometro_tb.vhd" \
+
+# Do not sort compile order
+nosort
